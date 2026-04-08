@@ -1,35 +1,39 @@
 {
 	"schemaVersion": 1,
-	"id": "examplemod",
-	"version": "${version}",
-	"name": "Example Mod",
-	"description": "This mod aims to help new BTA modders.",
+	"id": "pocketcrafting",
+	"version": "1.2",
+	"name": "PocketCrafting",
+	"description": "This mod My Fast BTA mod.",
 	"authors": [
-		"Turnip Labs"
+		"XuJun05"
 	],
 	"contact": {
-		"homepage": "",
-		"sources": ""
+		"homepage": "https://www.planetminecraft.com/mod/pocketcrafting",
+		"sources": "https://github.com/XuJun05/PocketCrafting",
+		"issues": "https://github.com/XuJun05/PocketCrafting/issues"
 	},
 	"icon": "icon.png",
-	"license": "CC0-1.0",
+	"license": "GNU LGPL v3",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"turniplabs.examplemod.ExampleMod"
+			"gay.xujun05.pocketcrafting.PocketCrafting"
 		],
-		"beforeGameStart": [
-			"turniplabs.examplemod.ExampleMod"
+		"afterItemInit": [
+			"gay.xujun05.pocketcrafting.PocketItems"
 		],
 		"afterGameStart": [
-			"turniplabs.examplemod.ExampleMod"
+			"gay.xujun05.pocketcrafting.PocketCrafting"
 		],
 		"recipesReady": [
-			"turniplabs.examplemod.ExampleMod"
+			"gay.xujun05.pocketcrafting.PocketCrafting"
+		],
+		"initModels": [
+			"gay.xujun05.pocketcrafting.PocketModels"
 		]
 	},
 	"mixins": [
-		"examplemod.mixins.json"
+		"pocketcrafting.mixins.json"
 	],
 	"depends": {
 		"fabricloader": ">=${fabricloader}",

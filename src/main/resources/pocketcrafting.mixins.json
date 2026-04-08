@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "gay.xujun05.pocketcrafting.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "MenuCraftingMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
