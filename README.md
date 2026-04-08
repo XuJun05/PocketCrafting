@@ -18,6 +18,7 @@ This mod adds a workbench that can be used without placing it down.
 ## Dependencies
 
 
+    Better than Adventure! 7.3   
     HalpLibe
 
 
