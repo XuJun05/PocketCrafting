@@ -32,4 +32,4 @@ Current Version: v1.2+mcb1.7.3
 ## 📜 Credits
 
 - Inspired by [Actually Additions](https://legacy.curseforge.com/minecraft/mc-mods/actually-additions)
-- Developed by [@XuJun](https://github.com/xujun05)
+- Developed by [@XuJun05](https://github.com/xujun05)
