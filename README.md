@@ -7,6 +7,7 @@ A Minecraft Mod for BTA7.3 (MinecraftBeta1.7.3)
 This mod adds a workbench that can be used without placing it down.
 
     PocketWorkbench
+    PocketFurnace
 
 ## Supported Languages
 
